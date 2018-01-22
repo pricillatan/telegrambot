@@ -19,7 +19,7 @@ import org.telegram.telegrambots.exceptions.TelegramApiException;
 
 
 public class EchoBot extends TelegramLongPollingBot {
-	private static WebTarget telegramService;
+	private static WebTarget telegramService; 
 	private static String telegramServer = "https://api.telegram.org/bot";
 	
 	private String botUsername = "", botToken = "" , botChannel="";
